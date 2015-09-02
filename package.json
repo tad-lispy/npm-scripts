@@ -1,0 +1,43 @@
+{
+  "name": "npm-scripts",
+  "version": "1.0.0",
+  "description": "Dummy NPM package to test which scripts are being executed when package is installed",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "echo 'NPM SCRIPT: preinstall'",
+    "install": "echo 'NPM SCRIPT: install'",
+    "postinstall": "echo 'NPM SCRIPT: postinstall'",
+    "prepublish": "echo 'NPM SCRIPT: prepublish'",
+    "publish": "echo 'NPM SCRIPT: publish'",
+    "postpublish": "echo 'NPM SCRIPT: postpublish'",
+    "preuninstall": "echo 'NPM SCRIPT: preuninstall'",
+    "uninstall": "echo 'NPM SCRIPT: uninstall'",
+    "postuninstall": "echo 'NPM SCRIPT: postuninstall'",
+    "preversion": "echo 'NPM SCRIPT: preversion'",
+    "version": "echo 'NPM SCRIPT: version'",
+    "postversion": "echo 'NPM SCRIPT: postversion'",
+    "pretest": "echo 'NPM SCRIPT: pretest'",
+    "test": "echo 'NPM SCRIPT: test'",
+    "prestop": "echo 'NPM SCRIPT: prestop'",
+    "stop": "echo 'NPM SCRIPT: stop'",
+    "prestart": "echo 'NPM SCRIPT: prestart'",
+    "start": "echo 'NPM SCRIPT: start'",
+    "poststart": "echo 'NPM SCRIPT: poststart'",
+    "prerestart": "echo 'NPM SCRIPT: prerestart'",
+    "restart": "echo 'NPM SCRIPT: restart'",
+    "postrestart": "echo 'NPM SCRIPT: postrestart'"
+  },
+  "author": "Tadeusz Łazurski (http://lazurski.pl)",
+  "license": "ISC",
+  "devDependencies": {
+    "coffee-script": "^1.9.3"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lzrski/npm-scripts.git"
+  }
+
+}

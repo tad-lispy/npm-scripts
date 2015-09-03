@@ -1,0 +1,135 @@
+npm info it worked if it ends with ok
+npm verb cli [ '/home/tadeusz/.nvm/versions/io.js/v3.0.0/bin/iojs',
+npm verb cli   '/home/tadeusz/.nvm/versions/io.js/v3.0.0/bin/npm',
+npm verb cli   'i',
+npm verb cli   '--verbose' ]
+npm info using npm@2.13.3
+npm info using node@v3.0.0
+npm verb readDependencies loading dependencies from /home/tadeusz/Projects/npm-scripts/package.json
+npm WARN package.json npm-scripts@1.0.0 No README data
+npm verb install where, deps [ '/home/tadeusz/Projects/npm-scripts',
+npm verb install   [ 'lodash', 'coffee-script' ] ]
+npm verb install where, peers [ '/home/tadeusz/Projects/npm-scripts', [] ]
+npm verb installManyTop reading for lifecycle /home/tadeusz/Projects/npm-scripts/package.json
+npm info preinstall npm-scripts@1.0.0
+
+> npm-scripts@1.0.0 preinstall /home/tadeusz/Projects/npm-scripts
+> echo 'NPM SCRIPT: preinstall'
+
+NPM SCRIPT: preinstall
+npm verb unsafe-perm in lifecycle true
+npm verb readDependencies loading dependencies from /home/tadeusz/Projects/npm-scripts/package.json
+npm verb cache add spec lodash@^3.10.1
+npm verb addNamed ">=3.10.1 <4.0.0" is a valid semver range for lodash
+npm verb addNameRange registry:https://registry.npmjs.org/lodash not in flight; fetching
+npm verb cache add spec coffee-script@^1.9.3
+npm verb addNamed ">=1.9.3 <2.0.0" is a valid semver range for coffee-script
+npm verb addNameRange registry:https://registry.npmjs.org/coffee-script not in flight; fetching
+npm verb request uri https://registry.npmjs.org/lodash
+npm verb request no auth needed
+npm info attempt registry request try #1 at 09:05:10
+npm verb request using bearer token for auth
+npm verb request id a6d06df1535a0a3b
+npm verb etag "ECQFNXKOA9Q8U67XGHRU7OCQP"
+npm http request GET https://registry.npmjs.org/lodash
+npm verb request uri https://registry.npmjs.org/coffee-script
+npm verb request no auth needed
+npm info attempt registry request try #1 at 09:05:10
+npm verb request using bearer token for auth
+npm verb etag "3LSXOWDIOFPS4E9WL1PXZRM02"
+npm http request GET https://registry.npmjs.org/coffee-script
+npm http 304 https://registry.npmjs.org/lodash
+npm verb etag https://registry.npmjs.org/lodash from cache
+npm verb get saving lodash to /home/tadeusz/.npm/registry.npmjs.org/lodash/.cache.json
+npm http 304 https://registry.npmjs.org/coffee-script
+npm verb etag https://registry.npmjs.org/coffee-script from cache
+npm verb get saving coffee-script to /home/tadeusz/.npm/registry.npmjs.org/coffee-script/.cache.json
+npm verb addNamed "1.9.3" is a plain semver version for coffee-script
+npm verb addNamed "3.10.1" is a plain semver version for lodash
+npm verb afterAdd /home/tadeusz/.npm/lodash/3.10.1/package/package.json not in flight; writing
+npm verb afterAdd /home/tadeusz/.npm/coffee-script/1.9.3/package/package.json not in flight; writing
+npm verb afterAdd /home/tadeusz/.npm/lodash/3.10.1/package/package.json written
+npm verb afterAdd /home/tadeusz/.npm/coffee-script/1.9.3/package/package.json written
+npm info install lodash@3.10.1 into /home/tadeusz/Projects/npm-scripts
+npm info install coffee-script@1.9.3 into /home/tadeusz/Projects/npm-scripts
+npm info installOne lodash@3.10.1
+npm verb installOne of lodash to /home/tadeusz/Projects/npm-scripts not in flight; installing
+npm info installOne coffee-script@1.9.3
+npm verb installOne of coffee-script to /home/tadeusz/Projects/npm-scripts not in flight; installing
+npm verb lock using /home/tadeusz/.npm/_locks/lodash-0bd1a103234ebd3c.lock for /home/tadeusz/Projects/npm-scripts/node_modules/lodash
+npm verb lock using /home/tadeusz/.npm/_locks/coffee-script-b35ddbfe06a5dfcc.lock for /home/tadeusz/Projects/npm-scripts/node_modules/coffee-script
+npm verb unbuild node_modules/lodash
+npm verb unbuild node_modules/coffee-script
+npm verb gentlyRm don't care about contents; nuking /home/tadeusz/Projects/npm-scripts/node_modules/lodash
+npm verb gentlyRm don't care about contents; nuking /home/tadeusz/Projects/npm-scripts/node_modules/coffee-script
+npm verb tar unpack /home/tadeusz/.npm/lodash/3.10.1/package.tgz
+npm verb tar unpacking to /home/tadeusz/Projects/npm-scripts/node_modules/lodash
+npm verb gentlyRm don't care about contents; nuking /home/tadeusz/Projects/npm-scripts/node_modules/lodash
+npm verb tar unpack /home/tadeusz/.npm/coffee-script/1.9.3/package.tgz
+npm verb tar unpacking to /home/tadeusz/Projects/npm-scripts/node_modules/coffee-script
+npm verb gentlyRm don't care about contents; nuking /home/tadeusz/Projects/npm-scripts/node_modules/coffee-script
+npm verb write writing to /home/tadeusz/Projects/npm-scripts/node_modules/coffee-script/package.json
+npm info preinstall coffee-script@1.9.3
+npm verb readDependencies loading dependencies from /home/tadeusz/Projects/npm-scripts/node_modules/coffee-script/package.json
+npm verb readDependencies loading dependencies from /home/tadeusz/Projects/npm-scripts/node_modules/coffee-script/package.json
+npm verb about to build /home/tadeusz/Projects/npm-scripts/node_modules/coffee-script
+npm info build /home/tadeusz/Projects/npm-scripts/node_modules/coffee-script
+npm info linkStuff coffee-script@1.9.3
+npm WARN prefer global coffee-script@1.9.3 should be installed with -g
+npm verb linkBins coffee-script@1.9.3
+npm verb link bins [ { coffee: './bin/coffee', cake: './bin/cake' },
+npm verb link bins   '/home/tadeusz/Projects/npm-scripts/node_modules/.bin',
+npm verb link bins   false ]
+npm verb linkMans coffee-script@1.9.3
+npm verb rebuildBundles coffee-script@1.9.3
+npm verb gentlyRm don't care about contents; nuking /home/tadeusz/Projects/npm-scripts/node_modules/.bin/coffee
+npm verb gentlyRm don't care about contents; nuking /home/tadeusz/Projects/npm-scripts/node_modules/.bin/cake
+npm info install coffee-script@1.9.3
+npm info postinstall coffee-script@1.9.3
+npm verb unlock done using /home/tadeusz/.npm/_locks/coffee-script-b35ddbfe06a5dfcc.lock for /home/tadeusz/Projects/npm-scripts/node_modules/coffee-script
+npm verb write writing to /home/tadeusz/Projects/npm-scripts/node_modules/lodash/package.json
+npm info preinstall lodash@3.10.1
+npm verb readDependencies loading dependencies from /home/tadeusz/Projects/npm-scripts/node_modules/lodash/package.json
+npm verb readDependencies loading dependencies from /home/tadeusz/Projects/npm-scripts/node_modules/lodash/package.json
+npm verb about to build /home/tadeusz/Projects/npm-scripts/node_modules/lodash
+npm info build /home/tadeusz/Projects/npm-scripts/node_modules/lodash
+npm info linkStuff lodash@3.10.1
+npm verb linkBins lodash@3.10.1
+npm verb linkMans lodash@3.10.1
+npm verb rebuildBundles lodash@3.10.1
+npm info install lodash@3.10.1
+npm info postinstall lodash@3.10.1
+npm verb unlock done using /home/tadeusz/.npm/_locks/lodash-0bd1a103234ebd3c.lock for /home/tadeusz/Projects/npm-scripts/node_modules/lodash
+npm info build /home/tadeusz/Projects/npm-scripts
+npm info linkStuff npm-scripts@1.0.0
+npm verb linkBins npm-scripts@1.0.0
+npm verb linkMans npm-scripts@1.0.0
+npm verb rebuildBundles npm-scripts@1.0.0
+npm verb rebuildBundles [ '.bin', 'coffee-script', 'lodash' ]
+npm info install npm-scripts@1.0.0
+
+> npm-scripts@1.0.0 install /home/tadeusz/Projects/npm-scripts
+> echo 'NPM SCRIPT: install'
+
+NPM SCRIPT: install
+npm verb unsafe-perm in lifecycle true
+npm info postinstall npm-scripts@1.0.0
+
+> npm-scripts@1.0.0 postinstall /home/tadeusz/Projects/npm-scripts
+> echo 'NPM SCRIPT: postinstall'
+
+NPM SCRIPT: postinstall
+npm verb unsafe-perm in lifecycle true
+npm info prepublish npm-scripts@1.0.0
+
+> npm-scripts@1.0.0 prepublish /home/tadeusz/Projects/npm-scripts
+> echo 'NPM SCRIPT: prepublish'
+
+NPM SCRIPT: prepublish
+npm verb unsafe-perm in lifecycle true
+npm verb validateInstall loading /home/tadeusz/Projects/npm-scripts/package.json for validation
+coffee-script@1.9.3 node_modules/coffee-script
+
+lodash@3.10.1 node_modules/lodash
+npm verb exit [ 0, true ]
+npm info ok 

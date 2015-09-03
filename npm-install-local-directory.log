@@ -1,0 +1,110 @@
+npm info it worked if it ends with ok
+npm verb cli [ '/home/tadeusz/.nvm/versions/io.js/v3.0.0/bin/iojs',
+npm verb cli   '/home/tadeusz/.nvm/versions/io.js/v3.0.0/bin/npm',
+npm verb cli   'i',
+npm verb cli   '--verbose',
+npm verb cli   '../npm-scripts/' ]
+npm info using npm@2.13.3
+npm info using node@v3.0.0
+npm verb install initial load of /home/tadeusz/Projects/playground/package.json
+npm verb readDependencies loading dependencies from /home/tadeusz/Projects/playground/package.json
+npm verb cache add spec ../npm-scripts/
+npm verb addLocalDirectory /home/tadeusz/.npm/npm-scripts/1.0.0/package.tgz not in flight; packing
+npm verb tar pack [ '/home/tadeusz/.npm/npm-scripts/1.0.0/package.tgz',
+npm verb tar pack   '/home/tadeusz/Projects/npm-scripts' ]
+npm verb tarball /home/tadeusz/.npm/npm-scripts/1.0.0/package.tgz
+npm verb folder /home/tadeusz/Projects/npm-scripts
+npm info prepublish npm-scripts@1.0.0
+
+> npm-scripts@1.0.0 prepublish /home/tadeusz/Projects/npm-scripts
+> echo 'NPM SCRIPT: prepublish'
+
+NPM SCRIPT: prepublish
+npm verb unsafe-perm in lifecycle true
+npm verb addLocalTarball adding from inside cache /home/tadeusz/.npm/npm-scripts/1.0.0/package.tgz
+npm verb afterAdd /home/tadeusz/.npm/npm-scripts/1.0.0/package/package.json not in flight; writing
+npm verb afterAdd /home/tadeusz/.npm/npm-scripts/1.0.0/package/package.json written
+npm info install npm-scripts@1.0.0 into /home/tadeusz/Projects/playground
+npm info installOne npm-scripts@1.0.0
+npm verb installOne of npm-scripts to /home/tadeusz/Projects/playground not in flight; installing
+npm verb lock using /home/tadeusz/.npm/_locks/npm-scripts-e0d5ba1c1de5cdf7.lock for /home/tadeusz/Projects/playground/node_modules/npm-scripts
+npm verb unbuild node_modules/npm-scripts
+npm verb gentlyRm don't care about contents; nuking /home/tadeusz/Projects/playground/node_modules/npm-scripts
+npm verb tar unpack /home/tadeusz/.npm/npm-scripts/1.0.0/package.tgz
+npm verb tar unpacking to /home/tadeusz/Projects/playground/node_modules/npm-scripts
+npm verb gentlyRm don't care about contents; nuking /home/tadeusz/Projects/playground/node_modules/npm-scripts
+npm verb write writing to /home/tadeusz/Projects/playground/node_modules/npm-scripts/package.json
+npm info preinstall npm-scripts@1.0.0
+
+> npm-scripts@1.0.0 preinstall /home/tadeusz/Projects/playground/node_modules/npm-scripts
+> echo 'NPM SCRIPT: preinstall'
+
+NPM SCRIPT: preinstall
+npm verb unsafe-perm in lifecycle true
+npm verb readDependencies loading dependencies from /home/tadeusz/Projects/playground/node_modules/npm-scripts/package.json
+npm verb readDependencies loading dependencies from /home/tadeusz/Projects/playground/node_modules/npm-scripts/package.json
+npm verb cache add spec lodash@^3.10.1
+npm verb addNamed ">=3.10.1 <4.0.0" is a valid semver range for lodash
+npm verb addNameRange registry:https://registry.npmjs.org/lodash not in flight; fetching
+npm verb request uri https://registry.npmjs.org/lodash
+npm verb request no auth needed
+npm info attempt registry request try #1 at 09:14:33
+npm verb request using bearer token for auth
+npm verb request id c3826328f834ef0e
+npm verb etag "ECQFNXKOA9Q8U67XGHRU7OCQP"
+npm http request GET https://registry.npmjs.org/lodash
+npm http 304 https://registry.npmjs.org/lodash
+npm verb etag https://registry.npmjs.org/lodash from cache
+npm verb get saving lodash to /home/tadeusz/.npm/registry.npmjs.org/lodash/.cache.json
+npm verb addNamed "3.10.1" is a plain semver version for lodash
+npm verb afterAdd /home/tadeusz/.npm/lodash/3.10.1/package/package.json not in flight; writing
+npm verb afterAdd /home/tadeusz/.npm/lodash/3.10.1/package/package.json written
+npm info install lodash@3.10.1 into /home/tadeusz/Projects/playground/node_modules/npm-scripts
+npm info installOne lodash@3.10.1
+npm verb installOne of lodash to /home/tadeusz/Projects/playground/node_modules/npm-scripts not in flight; installing
+npm verb lock using /home/tadeusz/.npm/_locks/lodash-690d8389355c1424.lock for /home/tadeusz/Projects/playground/node_modules/npm-scripts/node_modules/lodash
+npm verb unbuild node_modules/npm-scripts/node_modules/lodash
+npm verb gentlyRm don't care about contents; nuking /home/tadeusz/Projects/playground/node_modules/npm-scripts/node_modules/lodash
+npm verb tar unpack /home/tadeusz/.npm/lodash/3.10.1/package.tgz
+npm verb tar unpacking to /home/tadeusz/Projects/playground/node_modules/npm-scripts/node_modules/lodash
+npm verb gentlyRm don't care about contents; nuking /home/tadeusz/Projects/playground/node_modules/npm-scripts/node_modules/lodash
+npm verb write writing to /home/tadeusz/Projects/playground/node_modules/npm-scripts/node_modules/lodash/package.json
+npm info preinstall lodash@3.10.1
+npm verb readDependencies loading dependencies from /home/tadeusz/Projects/playground/node_modules/npm-scripts/node_modules/lodash/package.json
+npm verb readDependencies loading dependencies from /home/tadeusz/Projects/playground/node_modules/npm-scripts/node_modules/lodash/package.json
+npm verb about to build /home/tadeusz/Projects/playground/node_modules/npm-scripts/node_modules/lodash
+npm info build /home/tadeusz/Projects/playground/node_modules/npm-scripts/node_modules/lodash
+npm info linkStuff lodash@3.10.1
+npm verb linkBins lodash@3.10.1
+npm verb linkMans lodash@3.10.1
+npm verb rebuildBundles lodash@3.10.1
+npm info install lodash@3.10.1
+npm info postinstall lodash@3.10.1
+npm verb unlock done using /home/tadeusz/.npm/_locks/lodash-690d8389355c1424.lock for /home/tadeusz/Projects/playground/node_modules/npm-scripts/node_modules/lodash
+npm verb about to build /home/tadeusz/Projects/playground/node_modules/npm-scripts
+npm info build /home/tadeusz/Projects/playground/node_modules/npm-scripts
+npm info linkStuff npm-scripts@1.0.0
+npm verb linkBins npm-scripts@1.0.0
+npm verb linkMans npm-scripts@1.0.0
+npm verb rebuildBundles npm-scripts@1.0.0
+npm verb rebuildBundles [ 'lodash' ]
+npm info install npm-scripts@1.0.0
+
+> npm-scripts@1.0.0 install /home/tadeusz/Projects/playground/node_modules/npm-scripts
+> echo 'NPM SCRIPT: install'
+
+NPM SCRIPT: install
+npm verb unsafe-perm in lifecycle true
+npm info postinstall npm-scripts@1.0.0
+
+> npm-scripts@1.0.0 postinstall /home/tadeusz/Projects/playground/node_modules/npm-scripts
+> echo 'NPM SCRIPT: postinstall'
+
+NPM SCRIPT: postinstall
+npm verb unsafe-perm in lifecycle true
+npm verb unlock done using /home/tadeusz/.npm/_locks/npm-scripts-e0d5ba1c1de5cdf7.lock for /home/tadeusz/Projects/playground/node_modules/npm-scripts
+npm verb validateInstall loading /home/tadeusz/Projects/playground/package.json for validation
+npm-scripts@1.0.0 node_modules/npm-scripts
+└── lodash@3.10.1
+npm verb exit [ 0, true ]
+npm info ok 

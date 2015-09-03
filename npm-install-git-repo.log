@@ -1,0 +1,136 @@
+npm info it worked if it ends with ok
+npm verb cli [ '/home/tadeusz/.nvm/versions/io.js/v3.0.0/bin/iojs',
+npm verb cli   '/home/tadeusz/.nvm/versions/io.js/v3.0.0/bin/npm',
+npm verb cli   'i',
+npm verb cli   '--verbose',
+npm verb cli   'lzrski/npm-scripts' ]
+npm info using npm@2.13.3
+npm info using node@v3.0.0
+npm verb install initial load of /home/tadeusz/Projects/playground/package.json
+npm verb readDependencies loading dependencies from /home/tadeusz/Projects/playground/package.json
+npm verb cache add spec lzrski/npm-scripts
+npm verb addRemoteGit caching lzrski/npm-scripts
+npm verb addRemoteGit lzrski/npm-scripts is a repository hosted by github
+npm verb tryClone git-github-com-lzrski-npm-scripts-git-60305a1c not in flight; caching
+npm info git [ 'clone',
+npm info git   '--template=/home/tadeusz/.npm/_git-remotes/_templates',
+npm info git   '--mirror',
+npm info git   'git://github.com/lzrski/npm-scripts.git',
+npm info git   '/home/tadeusz/.npm/_git-remotes/git-github-com-lzrski-npm-scripts-git-60305a1c' ]
+npm verb mirrorRemote lzrski/npm-scripts git clone git://github.com/lzrski/npm-scripts.git 
+npm verb setPermissions lzrski/npm-scripts set permissions on /home/tadeusz/.npm/_git-remotes/git-github-com-lzrski-npm-scripts-git-60305a1c
+npm verb resolveHead lzrski/npm-scripts original treeish: master
+npm info git [ 'rev-list', '-n1', 'master' ]
+npm verb resolveHead lzrski/npm-scripts resolved Git URL: git://github.com/lzrski/npm-scripts.git#6ac4f816f5205861f45c2eb74b9d769d5db023bf
+npm info git [ 'clone',
+npm info git   '/home/tadeusz/.npm/_git-remotes/git-github-com-lzrski-npm-scripts-git-60305a1c',
+npm info git   '/tmp/npm-8570-0ffcd43b/git-cache-d31fbeb5183f/6ac4f816f5205861f45c2eb74b9d769d5db023bf' ]
+npm verb cloneResolved lzrski/npm-scripts clone Cloning into '/tmp/npm-8570-0ffcd43b/git-cache-d31fbeb5183f/6ac4f816f5205861f45c2eb74b9d769d5db023bf'...
+npm verb cloneResolved done.
+npm info git [ 'checkout', '6ac4f816f5205861f45c2eb74b9d769d5db023bf' ]
+npm verb checkoutTreeish lzrski/npm-scripts checkout Note: checking out '6ac4f816f5205861f45c2eb74b9d769d5db023bf'.
+npm verb checkoutTreeish 
+npm verb checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+npm verb checkoutTreeish changes and commit them, and you can discard any commits you make in this
+npm verb checkoutTreeish state without impacting any branches by performing another checkout.
+npm verb checkoutTreeish 
+npm verb checkoutTreeish If you want to create a new branch to retain commits you create, you may
+npm verb checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+npm verb checkoutTreeish 
+npm verb checkoutTreeish   git checkout -b new_branch_name
+npm verb checkoutTreeish 
+npm verb checkoutTreeish HEAD is now at 6ac4f81... Initial commit with package.json
+npm verb addLocalDirectory /home/tadeusz/.npm/npm-scripts/1.0.0/package.tgz not in flight; packing
+npm verb tar pack [ '/home/tadeusz/.npm/npm-scripts/1.0.0/package.tgz',
+npm verb tar pack   '/tmp/npm-8570-0ffcd43b/git-cache-d31fbeb5183f/6ac4f816f5205861f45c2eb74b9d769d5db023bf' ]
+npm verb tarball /home/tadeusz/.npm/npm-scripts/1.0.0/package.tgz
+npm verb folder /tmp/npm-8570-0ffcd43b/git-cache-d31fbeb5183f/6ac4f816f5205861f45c2eb74b9d769d5db023bf
+npm verb addLocalTarball adding from inside cache /home/tadeusz/.npm/npm-scripts/1.0.0/package.tgz
+npm verb addRemoteGit data._from: lzrski/npm-scripts
+npm verb addRemoteGit data._resolved: git://github.com/lzrski/npm-scripts.git#6ac4f816f5205861f45c2eb74b9d769d5db023bf
+npm verb afterAdd /home/tadeusz/.npm/npm-scripts/1.0.0/package/package.json not in flight; writing
+npm verb afterAdd /home/tadeusz/.npm/npm-scripts/1.0.0/package/package.json written
+npm info install npm-scripts@1.0.0 into /home/tadeusz/Projects/playground
+npm info installOne npm-scripts@1.0.0
+npm verb installOne of npm-scripts to /home/tadeusz/Projects/playground not in flight; installing
+npm verb lock using /home/tadeusz/.npm/_locks/npm-scripts-e0d5ba1c1de5cdf7.lock for /home/tadeusz/Projects/playground/node_modules/npm-scripts
+npm verb unbuild node_modules/npm-scripts
+npm verb gentlyRm don't care about contents; nuking /home/tadeusz/Projects/playground/node_modules/npm-scripts
+npm verb tar unpack /home/tadeusz/.npm/npm-scripts/1.0.0/package.tgz
+npm verb tar unpacking to /home/tadeusz/Projects/playground/node_modules/npm-scripts
+npm verb gentlyRm don't care about contents; nuking /home/tadeusz/Projects/playground/node_modules/npm-scripts
+npm verb write writing to /home/tadeusz/Projects/playground/node_modules/npm-scripts/package.json
+npm info preinstall npm-scripts@1.0.0
+
+> npm-scripts@1.0.0 preinstall /home/tadeusz/Projects/playground/node_modules/npm-scripts
+> echo 'NPM SCRIPT: preinstall'
+
+NPM SCRIPT: preinstall
+npm verb unsafe-perm in lifecycle true
+npm verb readDependencies loading dependencies from /home/tadeusz/Projects/playground/node_modules/npm-scripts/package.json
+npm verb readDependencies loading dependencies from /home/tadeusz/Projects/playground/node_modules/npm-scripts/package.json
+npm verb cache add spec lodash@^3.10.1
+npm verb addNamed ">=3.10.1 <4.0.0" is a valid semver range for lodash
+npm verb addNameRange registry:https://registry.npmjs.org/lodash not in flight; fetching
+npm verb request uri https://registry.npmjs.org/lodash
+npm verb request no auth needed
+npm info attempt registry request try #1 at 09:21:45
+npm verb request using bearer token for auth
+npm verb request id 004b3b43694b57e9
+npm verb etag "ECQFNXKOA9Q8U67XGHRU7OCQP"
+npm http request GET https://registry.npmjs.org/lodash
+npm http 304 https://registry.npmjs.org/lodash
+npm verb etag https://registry.npmjs.org/lodash from cache
+npm verb get saving lodash to /home/tadeusz/.npm/registry.npmjs.org/lodash/.cache.json
+npm verb addNamed "3.10.1" is a plain semver version for lodash
+npm verb afterAdd /home/tadeusz/.npm/lodash/3.10.1/package/package.json not in flight; writing
+npm verb afterAdd /home/tadeusz/.npm/lodash/3.10.1/package/package.json written
+npm info install lodash@3.10.1 into /home/tadeusz/Projects/playground/node_modules/npm-scripts
+npm info installOne lodash@3.10.1
+npm verb installOne of lodash to /home/tadeusz/Projects/playground/node_modules/npm-scripts not in flight; installing
+npm verb lock using /home/tadeusz/.npm/_locks/lodash-690d8389355c1424.lock for /home/tadeusz/Projects/playground/node_modules/npm-scripts/node_modules/lodash
+npm verb unbuild node_modules/npm-scripts/node_modules/lodash
+npm verb gentlyRm don't care about contents; nuking /home/tadeusz/Projects/playground/node_modules/npm-scripts/node_modules/lodash
+npm verb tar unpack /home/tadeusz/.npm/lodash/3.10.1/package.tgz
+npm verb tar unpacking to /home/tadeusz/Projects/playground/node_modules/npm-scripts/node_modules/lodash
+npm verb gentlyRm don't care about contents; nuking /home/tadeusz/Projects/playground/node_modules/npm-scripts/node_modules/lodash
+npm verb write writing to /home/tadeusz/Projects/playground/node_modules/npm-scripts/node_modules/lodash/package.json
+npm info preinstall lodash@3.10.1
+npm verb readDependencies loading dependencies from /home/tadeusz/Projects/playground/node_modules/npm-scripts/node_modules/lodash/package.json
+npm verb readDependencies loading dependencies from /home/tadeusz/Projects/playground/node_modules/npm-scripts/node_modules/lodash/package.json
+npm verb about to build /home/tadeusz/Projects/playground/node_modules/npm-scripts/node_modules/lodash
+npm info build /home/tadeusz/Projects/playground/node_modules/npm-scripts/node_modules/lodash
+npm info linkStuff lodash@3.10.1
+npm verb linkBins lodash@3.10.1
+npm verb linkMans lodash@3.10.1
+npm verb rebuildBundles lodash@3.10.1
+npm info install lodash@3.10.1
+npm info postinstall lodash@3.10.1
+npm verb unlock done using /home/tadeusz/.npm/_locks/lodash-690d8389355c1424.lock for /home/tadeusz/Projects/playground/node_modules/npm-scripts/node_modules/lodash
+npm verb about to build /home/tadeusz/Projects/playground/node_modules/npm-scripts
+npm info build /home/tadeusz/Projects/playground/node_modules/npm-scripts
+npm info linkStuff npm-scripts@1.0.0
+npm verb linkBins npm-scripts@1.0.0
+npm verb linkMans npm-scripts@1.0.0
+npm verb rebuildBundles npm-scripts@1.0.0
+npm verb rebuildBundles [ 'lodash' ]
+npm info install npm-scripts@1.0.0
+
+> npm-scripts@1.0.0 install /home/tadeusz/Projects/playground/node_modules/npm-scripts
+> echo 'NPM SCRIPT: install'
+
+NPM SCRIPT: install
+npm verb unsafe-perm in lifecycle true
+npm info postinstall npm-scripts@1.0.0
+
+> npm-scripts@1.0.0 postinstall /home/tadeusz/Projects/playground/node_modules/npm-scripts
+> echo 'NPM SCRIPT: postinstall'
+
+NPM SCRIPT: postinstall
+npm verb unsafe-perm in lifecycle true
+npm verb unlock done using /home/tadeusz/.npm/_locks/npm-scripts-e0d5ba1c1de5cdf7.lock for /home/tadeusz/Projects/playground/node_modules/npm-scripts
+npm verb validateInstall loading /home/tadeusz/Projects/playground/package.json for validation
+npm-scripts@1.0.0 node_modules/npm-scripts
+└── lodash@3.10.1
+npm verb exit [ 0, true ]
+npm info ok 
